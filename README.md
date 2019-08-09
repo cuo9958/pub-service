@@ -1,7 +1,7 @@
 # pub-service
 热更新提供的数据库服务
 
-> @dal/config 是自定义的config库，为了单独区分service用到的配置和server用到的配置
+> node-my-config 是自定义的config库，为了单独区分service用到的配置和server用到的配置
 > node-precommit 是自定义的git钩子，为了保持版本能够自动升级
 
 ### 数据源

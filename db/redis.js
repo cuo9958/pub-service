@@ -2,7 +2,7 @@ const Redis = require('ioredis');
 const path = require("path");
 
 process.env["NODE_CONFIG_DIR_C"] = path.join(__dirname, "../config/");
-const config = require('@dal/config');
+const config = require('node-my-config');
 
 let cluster;
 if (config.redisCluster && config.redisCluster.length > 0) {

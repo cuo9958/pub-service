@@ -5,7 +5,7 @@ const Sequelize = require('sequelize');
 const path = require("path");
 
 process.env["NODE_CONFIG_DIR_C"] = path.join(__dirname, "../config/");
-const config = require('@dal/config');
+const config = require('node-my-config');
 
 const dbConfig = config.db.master;
 

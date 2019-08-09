@@ -1,0 +1,24 @@
+{
+  "name": "@dal/pub-service",
+  "version": "0.1.17",
+  "description": "app发布系统的服务",
+  "main": "index.js",
+  "scripts": {
+    "pub": "node update.js && npm publish"
+  },
+  "postcommit": "node update.js && npm publish",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dal/config": "3.1.1",
+    "ioredis": "4.14.0",
+    "mysql2": "1.6.5",
+    "sequelize": "5.12.2"
+  },
+  "devDependencies": {
+    "@types/ioredis": "^4.0.13",
+    "jest": "24.8.0",
+    "node-precommit": "1.1.2"
+  }
+}

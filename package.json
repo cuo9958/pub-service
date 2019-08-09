@@ -1,5 +1,5 @@
 {
-  "name": "@dal/pub-service",
+  "name": "pub-service",
   "version": "0.1.17",
   "description": "app发布系统的服务",
   "main": "index.js",

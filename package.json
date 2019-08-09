@@ -1,6 +1,6 @@
 {
   "name": "pub-service",
-  "version": "0.1.18",
+  "version": "0.1.19",
   "description": "app发布系统的服务",
   "main": "index.js",
   "scripts": {
